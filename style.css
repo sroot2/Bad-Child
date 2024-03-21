@@ -1,0 +1,140 @@
+/*colors:
+tan: rgba(253, 220, 152, 1)
+black: rgba(45, 33, 9, 1)
+peach: rgba(252, 151, 151, 1)
+rose red: rgba(180, 57, 59, 1)
+light blue: rgba(143, 201, 232, 1)
+pale violet: rgba(235, 204, 241, 1)
+*/ 
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import "https://unpkg.com/open-props";
+
+:root {
+     /* main UI color */
+    --plyr-color-main: rgba(235, 204, 241, 1);
+      /* audio controls background */
+    --plyr-audio-controls-background: rgba(252, 151, 151, 1);
+      /* audio controls color */
+    --plyr-audio-control-color: light blue: rgba(143, 201, 232, 1);
+    /*     icon color on hover   */
+  --plyr-audio-control-color-hover: rgba(180, 57, 59, 1);
+  /*   buffer backgroud */
+  --plyr-audio-progress-buffered-background: rgba(180, 57, 59, 1);
+   --plyr-font-family: sans-serif;
+  --plyr-font-size-time: 20px;
+/*    tooltips  */
+    --plyr-tooltip-background: fuchsia;
+    --plyr-tooltip-color: black; 
+  /*  icon size  */
+  --plyr-control-icon-size: 20px;
+}  
+
+.plyr{
+  position: sticky;
+  top: 1px;
+  opacity: 50%;
+}
+
+  body {
+    font-family: "Merienda", cursive;
+    color: rgba(143, 201, 232, 1);
+    background-image: var(--gradient-1);
+}
+
+main {
+  max-width: 100%;
+  margin-inline: auto;
+}
+
+main img {
+  max-width: 100%;
+  display: block;
+  margin-inline: auto;
+  border: 10px rgba(252, 151, 151, .30) solid; 
+}
+
+
+main h1{
+  text-align: center;
+}
+
+main article {
+  display: grid;
+  gap: 0em;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+main article figure {
+  color: rgba(235, 204, 241, 1);
+  padding: 1em;
+  margin: 0;
+  font-size: 2rem;
+}
+
+main aside figure {
+    color: rgba(143, 201, 232, 1);
+  padding: 1em;
+  margin: 0;
+  font-size: 2rem;
+}
+
+aside{
+  color: rgba(143, 201, 232, 1);
+}
+
+h3 i{
+  opacity: 30%;
+  font-size: 1.5rem;
+}
+
+
+footer a:link, 
+footer a:visited {
+  background: rgba(253, 220, 152, 1);
+  color:rgba(45, 33, 9, 1);
+  font-size: 1.5rem;
+}
+
+footer a:hover, 
+footer a:active {
+  background: rgba(180, 57, 59, 1);
+  color: rgba(235, 204, 241, 1);
+  font-size: 2rem;
+}
+
+@media  (max-width: 400px) {
+  
+  :root {
+    --plyr-font-size-time: 10px;
+    --plyr-control-icon-size: 10px;
+  }
+  
+  main h1 {
+    font-size: 1.5em;
+  }
+  
+  main article {
+    flex-direction: column;
+  }
+ 
+  main article figure {
+  color: rgba(235, 204, 241, 1);
+  padding: 1em;
+  margin: 0;
+  font-size: 1rem;
+}
+
+main aside figure {
+    color: rgba(143, 201, 232, 1);
+  padding: 1em;
+  margin: 0;
+  font-size: 1rem;
+  }
+
+h3 i{
+  opacity: 30%;
+  font-size: .5rem;
+}
+}
