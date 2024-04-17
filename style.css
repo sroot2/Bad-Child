@@ -31,11 +31,15 @@ olive-rgba(168, 183, 171, 1);
 .plyr {
   position: sticky;
   top: 1px;
-  opacity: 70%;
+  opacity: 30%;
   width: 75%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.plyr:hover {
+  opacity: 70%;
 }
 
   body {
@@ -64,7 +68,7 @@ content: '';
 position: absolute;
 z-index: -1;
 inset: 0;
-opacity: .2;
+opacity: .1;
 background-image: url(background.jpg);
 background-repeat: no-repeat;
 background-position: center;
@@ -81,29 +85,23 @@ main article, aside {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 10px;
-  padding: 15px;
 }
 
-main article figure {
+main article figure, 
+main aside figure {
   color: rgba(84, 98, 123, 1);
   padding: 1em;
   margin: 0;
   font-size: 2rem;
+  text-align: center;
+  
 }
 
-main aside figure {
-    color: rgba(84, 98, 123, 1);
-  padding: 1em;
-  margin: 0;
-  font-size: 2rem;
-}
-
-aside{
+aside {
   color: rgba(84, 98, 123, 1);;
 }
 
-h3 i{
+h3 i {
   opacity: 80%;
   font-size: 1.6rem;
   color: rgba(159, 156, 147, 1);
