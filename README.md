@@ -17,3 +17,4 @@
 [Lyrics](https://genius.com/Tones-and-i-bad-child-lyrics)
 [audio](https://www.youtube.com/watch?v=bjFGLXZto3U)
 [background Gradiant](https://open-props.style/)
+[background image](https://unsplash.com/photos/water-droplets-on-clear-glass-1YHXFeOYpN0)
