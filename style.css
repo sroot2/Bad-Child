@@ -32,7 +32,7 @@ olive-rgba(168, 183, 171, 1);
   position: sticky;
   top: 1px;
   opacity: 30%;
-  width: 75%;
+  width: 73%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -48,6 +48,7 @@ olive-rgba(168, 183, 171, 1);
     background-image: var(--gradient-9);
     position: relative;
     isolation: isolate;
+    margin: auto;
 }
 
 main {
@@ -73,7 +74,8 @@ background-image: url(background.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-attachment: fixed;
-border-color: solid rgba(84, 98, 123, 1) 10px;   
+border-color: solid rgba(84, 98, 123, 1) 10px;  
+margin: auto; 
 }
 
 main h1 {
@@ -82,9 +84,11 @@ main h1 {
 }
 
 main article, aside {
+  padding: 4em;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 main article figure, 
@@ -110,8 +114,8 @@ h3 i {
 
 footer a:link, 
 footer a:visited {
-  background: rgba(84, 98, 123, 1);;
-  color:rgba(244, 244, 246, 1);
+  background: rgba(173, 200, 210, 1);
+  color: rgba(159, 156, 147, 1);
   padding: 10px;
 }
 
@@ -119,6 +123,8 @@ footer a:hover,
 footer a:active {
   background: rgba(173, 200, 210, 1);
   color: rgba(159, 156, 147, 1);
+  background: rgba(84, 98, 123, 1);
+  color:rgba(244, 244, 246, 1);
 }
 
 @media  (max-width: 400px) {
