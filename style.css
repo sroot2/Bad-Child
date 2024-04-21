@@ -96,7 +96,7 @@ main aside figure {
   color: rgba(84, 98, 123, 1);
   padding: 1em;
   margin: 0;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   
 }
@@ -116,13 +116,11 @@ footer a:link,
 footer a:visited {
   background: rgba(173, 200, 210, 1);
   color: rgba(159, 156, 147, 1);
-  padding: 10px;
+  padding: 25px;
 }
 
 footer a:hover, 
 footer a:active {
-  background: rgba(173, 200, 210, 1);
-  color: rgba(159, 156, 147, 1);
   background: rgba(84, 98, 123, 1);
   color:rgba(244, 244, 246, 1);
 }
