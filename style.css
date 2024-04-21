@@ -125,15 +125,15 @@ footer a:active {
   color:rgba(244, 244, 246, 1);
 }
 
-@media  (max-width: 400px) {
+@media  (max-width: 600px) {
   
   :root {
-    --plyr-font-size-time: 10px;
-    --plyr-control-icon-size: 10px;
+    --plyr-font-size-time: 15px;
+    --plyr-control-icon-size: 15px;
   }
   
   main img {
-    width: 500px;
+    width: 300px;
     height: auto;
     display: block;
     margin-left: auto;
@@ -153,8 +153,8 @@ footer a:active {
   color: rgba(84, 98, 123, 1);
   padding: 1em;
   margin: 0;
-  font-size: 1rem;
-  padding: 10rem;
+  font-size: 1.5rem;
+  padding: 5rem;
   }
 
 
@@ -162,7 +162,7 @@ main aside figure {
     color: rgba(84, 98, 123, 1);
   padding: 1em;
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.5rem;
   }
 
 h3 i{
